@@ -1,0 +1,18 @@
+# Roman Zhuk
+
+## Software engineer
+
+==================
+
+**Contacts**\
+Location: Kyiv, Ukraine\
+Email: zhuk.solution@gmail.com
+
+**About Me**\
+My goal is to learn JS
+
+**Skills**\
+HTML\
+CSS/SASS\
+JavaScript (Basic)\
+Git
