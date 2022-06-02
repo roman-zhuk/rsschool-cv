@@ -1,1 +1,1 @@
-https://roman-zhukgithub.io/rsschool-cv/cv
+https://roman-zhuk.github.io/rsschool-cv/cv
