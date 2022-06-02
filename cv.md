@@ -16,3 +16,13 @@ HTML\
 CSS/SASS\
 JavaScript (Basic)\
 Git
+
+**Code example**
+
+> Math.pow(m, n);
+
+**Education**\
+NTUU KPI
+
+**English level**\
+Around C1
