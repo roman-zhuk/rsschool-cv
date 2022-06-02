@@ -25,4 +25,4 @@ Git
 NTUU KPI
 
 **English level**\
-Around C1
+C1
