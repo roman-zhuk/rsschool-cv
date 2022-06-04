@@ -1,15 +1,231 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@roman-zhuk
+ferdigo
+/
+rsschool-cv
+Public
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+rsschool-cv/index.html
+@zeedrive
+zeedrive feat: added semantic tags and page structure
+Latest commit 92e5808 on Sep 16, 2020
+History
+1 contributor
+183 lines (175 sloc) 7.28 KB
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css ">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Roman Zhuk</h1>
+            <hr>
+            <div class="info">
+                <div class="contacts">
+                    <h3>Contacts</h3>
 
+                    <ul class="inner-ul">
+                        <li>Email: <a href="mailto:rombat999@gmail.com">Send a letter</a></li>
+                        <li>Phone: <a href="tel: +380972459308">Make a call</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/roman-zhuk/" target="_blank">Click here</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <img class="avatar">
+            </div>
+
+            <div class="info-block">
+                <h3>Summary</h3>
+                <hr>
+                <p>I've been working as an engineer for around 7 years, and gained valuable experience in mechanical and
+                    aircraft engineering. Now I'm looking for an opportunity that will allow me to work on interesting
+                    as well as challenging projects. My
+                    skills and qualifications seem to be a perfect match with the job requirements for a Junior
+                    Front-end Developer position.</p>
+                <p>Having a chance to work with the smartest people, cutting edge technologies, and developing ability
+                    to create something complicated and sophisticated at the same time inspires me to move forward and
+                    push myself to the limit.
+                </p>
+            </div>
+        </header>
+        <main>
+            <div class="info-block">
+                <h3>Technical Skills</h3>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Web technologies</td>
+                            <td>HTML/CSS</td>
+                            <td>Bootstrap 4</td>
+                            <td>SASS</td>
+                        </tr>
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td colspan="3">JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Frameworks</td>
+                            <td>Angular</td>
+                            <td>React</td>
+                            <td>Vue.js</td>
+                        </tr>
+                        <tr>
+                            <td>Methodologies</td>
+                            <td>BEM</td>
+                            <td>OOP</td>
+                            <td>Scrum</td>
+                        </tr>
+                        <tr>
+                            <td>Automation Software</td>
+                            <td>Webpack</td>
+                            <td>Gulp</td>
+                            <td>Parcel</td>
+                        </tr>
+                        <tr>
+                            <td>VCS</td>
+                            <td colspan="3">Git</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="info-block">
+                <h3>Soft Skills</h3>
+                <hr>
+                <form>
+                    <input type="checkbox" checked disabled><label>Analytical thinking</label>
+                    <br>
+                    <input type="checkbox" checked disabled><label>Teamwork</label>
+                    <br>
+                    <input type="checkbox" checked disabled><label>Problem solving</label>
+                    <br>
+                    <input type="checkbox" checked disabled><label>Open-mindedness</label>
+                    <br>
+                </form>
+            </div>
+            <div class="info-block">
+                <h3>Code example:</h3>
+                <hr>
+                <code>
+                    <pre>let greeting = true;
+if (greeting) alert('Hello stranger :)');</pre>
+                </code>
+                <button onclick="demo()">Click here</button>
+            </div>
+
+            <div class="info-block">
+                <h3>Experience</h3>
+                <hr>
+                <ul class="embedded-list">
+                    <li>The Boeing Company
+                        <ul>
+                            <li>Aug 2018 - Present</li>
+                            <li>Manufacturing Engineer</li>
+                        </ul>
+                    </li>
+                    <li>PT. Krakatau Steel
+                        <ul>
+                            <li>Nov 2016 - Feb 2018</li>
+                            <li>Technical Consultant</li>
+                        </ul>
+                    </li>
+                    <li>LvivAgroMash LLC
+                        <ul>
+                            <li>Oct 2015 - May 2016</li>
+                            <li>Manufacturing Engineer</li>
+                        </ul>
+                    </li>
+                    <li>Universal Drilling Technique LLC
+                        <ul>
+                            <li>Mar 2012 - Oct 2015</li>
+                            <li>Process Engineer</li>
+                        </ul>
+                    </li>
+                    <li>Pavlohradkhimmash
+                        <ul>
+                            <li>Apr 2011 - Oct 2011</li>
+                            <li>Design Engineer</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-block">
+                <h3>Education</h3>
+                <hr>
+                <ul class="embedded-list education">
+                    <li>School: National Technical University of Ukraine ‘Kyiv Polytechnic Institute’
+                        <ul>
+                            <li>Degree: Master’s degree</li>
+                            <li>Field of study: Mechanical Engineering</li>
+                        </ul>
+                    </li>
+                    <li>Completed Courses:
+                        <ul>
+                            <li>Udemy - HTML, CSS, & JavaScript - Certification Course for Beginners.</li>
+                            <li>Stepik.org - Web development for beginners: HTML и CSS</li>
+                            <li>ru.code-basics.com - JavaScript for beginners</li>
+                            <li>RS school</li>
+                        </ul>
+                    </li>
+            </div>
+            <div class="info-block">
+                <h3>English</h3>
+                <hr>
+                <h4>Fluent speaker</h4>
+                <ul class="embedded-list education">
+                    <li>Temporary residence in Everett, Washington state, USA (Business trip 2019)</li>
+                    <li>Weekly meetings with US colleagues from the Boeing company (since 2018)</li>
+            </div>
+        </main>
+        <footer>
+            <p>Thank you for reaching out to me<br>Have a wonderful day!
+            </p>
+        </footer>
+    </div>
+    </div>
+    <script>
+        demo = () => alert('Hello stranger :)')
+    </script>
 </body>
 
 </html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
